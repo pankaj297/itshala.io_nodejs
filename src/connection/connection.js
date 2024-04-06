@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 const DB ="mongodb+srv://pankajnaik958:itshala01@cluster1.wl2qu8d.mongodb.net/ItshalaProject";
 
 mongoose
-  .connect(`${DB}ItshalaProject`, {})
+    .connect(DB)
   .then(() => {
     console.log(`Connecting Successful`);
   })
